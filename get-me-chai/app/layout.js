@@ -3,6 +3,7 @@ import "./globals.css";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import { SessionWrapper } from "./components/SessionWrapper";
 
 
 
@@ -28,7 +29,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        
+        <SessionWrapper>
         <Navbar />
         <div className="min-h-[85vh]  [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]">
         
@@ -36,6 +37,7 @@ export default function RootLayout({ children }) {
         </div>
       
         <Footer />
+        </SessionWrapper>
       </body>
     </html>
   );
