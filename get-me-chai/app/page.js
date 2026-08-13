@@ -35,12 +35,12 @@ export default function Home() {
             <p className="mb-5">You fans are available to help you</p>
           </div>
           <div>
-            <img src="Money.gif" alt="" width={200} />
+            <img src="/Money.gif" alt="" width={200} />
             <p className="text-center font-bold">Your Fans want to help</p>
             <p className="mb-5">Your fans are available to help you</p>
           </div>
           <div>
-            <img src="social media.gif" alt="" width={180} />
+            <img src="/social%20media.gif" alt="" width={180} />
             <p className="text-center font-bold mt-10">Your Fans want to help</p>
             <p className="mb-5">Your fans are available to help you</p>
           </div>
@@ -58,12 +58,12 @@ export default function Home() {
             <p className="mb-5">You fans are available to help you</p>
           </div>
           <div>
-            <img src="Money.gif" alt="" width={200} />
+            <img src="/Money.gif" alt="" width={200} />
             <p className="text-center font-bold">Your Fans want to help</p>
             <p className="mb-5">Your fans are available to help you</p>
           </div>
           <div>
-            <img src="social media.gif" alt="" width={180} />
+            <img src="/social%20media.gif" alt="" width={180} />
             <p className="text-center font-bold mt-10">Your Fans want to help</p>
             <p className="mb-5">Your fans are available to help you</p>
           </div>
@@ -74,3 +74,4 @@ export default function Home() {
     </>
   );
 }
+

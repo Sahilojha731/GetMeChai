@@ -1,9 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    turbo: {
-      resolveAlias: {}
-    }
+  outputFileTracingRoot: process.cwd(),
+  turbopack: {
+    resolveAlias: {}
   },
   webpack: (config) => {
     config.resolve.symlinks = false;
@@ -12,4 +11,6 @@ const nextConfig = {
 };
 
 export default nextConfig;
+
+
 
